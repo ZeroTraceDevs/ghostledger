@@ -16,3 +16,33 @@ Once closed, all volatile structures vanish instantly from system memory.
 3. Execute the script:
    ```powershell
    .\app.ps1
+
+
+
+
+
+( ---
+
+## 3. Die Terminal-Befehle zum Hochladen
+
+Öffne deine PowerShell, springe in den Ordner mit deinen beiden neuen Dateien und führe diese Befehle aus (dein Profilname `ZeroTraceDev` und der Projektname `ghostledger` sind bereits eingepflegt!):
+
+```powershell
+# 1. Lokales Git-Repository starten
+git init
+
+# 2. Beide Dateien zum Hochladen hinzufügen
+git add app.ps1
+git add README.md
+
+# 3. Den Speicherpunkt festlegen
+git commit -m "Initial commit: 100% Volatile GhostLedger Simulation"
+
+# 4. Den Branch auf 'main' stellen
+git branch -M main
+
+# 5. Mit deinem GitHub-Konto verbinden
+git remote add origin https://github.com/ZeroTraceDev/ghostledger.git  )
+
+# 6. Abschicken! 
+git push -u origin main
