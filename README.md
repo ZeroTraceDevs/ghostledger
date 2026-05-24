@@ -25,7 +25,7 @@ Once closed, all volatile structures vanish instantly from system memory.
 
 ## 3. Die Terminal-Befehle zum Hochladen
 
-Öffne deine PowerShell, springe in den Ordner mit deinen beiden neuen Dateien und führe diese Befehle aus (dein Profilname `ZeroTraceDev` und der Projektname `ghostledger` sind bereits eingepflegt!):
+Öffne deine PowerShell, springe in den Ordner mit deinen beiden neuen Dateien und führe diese Befehle aus (dein Profilname `ZeroTraceDevs` und der Projektname `ghostledger` sind bereits eingepflegt!):
 
 ```powershell
 # 1. Lokales Git-Repository starten
