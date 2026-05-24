@@ -42,7 +42,7 @@ git commit -m "Initial commit: 100% Volatile GhostLedger Simulation"
 git branch -M main
 
 # 5. Mit deinem GitHub-Konto verbinden
-git remote add origin https://github.com/ZeroTraceDev/ghostledger.git  )
+git remote add origin https://github.com/ZeroTraceDevs/ghostledger.git  )
 
 # 6. Abschicken! 
 git push -u origin main
